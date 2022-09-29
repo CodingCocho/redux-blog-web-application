@@ -1,0 +1,50 @@
+*
+{
+    box-sizing: border-box !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.Navbar
+{
+    height: 140px !important;
+    width: 100vw !important;
+    .component
+    {
+        align-items: center !important;
+        background-color: #80a4ed !important;
+        display: flex !important;
+        height: 100% !important;
+        justify-content: space-around !important;
+        max-width: none !important;
+        width: 100% !important;
+        .active-link
+        {
+            color: #4b3b47 !important;
+            cursor: pointer !important;
+            font-family: 'Times New Roman', Times, serif !important;
+            font-size: 1rem   !important;
+            font-weight: 700 !important;
+            letter-spacing: .125rem !important;
+            margin-right: 40px !important;
+            text-decoration: none !important;
+            white-space: nowrap !important;
+        }
+        .unactive-link
+        {
+            color: #f4f3ee !important;
+            cursor: pointer !important;
+            font-family: 'Times New Roman', Times, serif !important;
+            font-size: 1rem   !important;
+            font-weight: 700 !important;
+            letter-spacing: .125rem !important;
+            margin-right: 40px !important;
+            text-decoration: none !important;
+            white-space: nowrap !important;
+            &:hover
+            {
+                color: #4b3b47!important;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+*
+{
+    box-sizing: border-box !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.Home
+{
+    background-color: #57a773 !important;
+    min-height: 100vh !important;
+    max-width: none !important;
+    width: 100vw !important;
+    .page
+    {
+        max-width: none !important;
+        width: 100% !important;
+    }
+}

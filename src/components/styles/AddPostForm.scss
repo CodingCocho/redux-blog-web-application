@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: border-box !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.AddPostForm
+{
+    margin-top: 40px !important;
+    width: 100vw !important;
+    h2
+    {
+        color: #4b3b47 !important;
+        text-align: center !important;
+    }
+    button
+    {
+        background-color: #80a4ed  !important;
+        border: none !important;
+        color: #4b3b47 !important;
+        cursor: pointer !important;
+        display: block !important;
+        font-size: 1.125rem !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 20px !important;
+        padding: 20px 40px !important;
+    }
+}

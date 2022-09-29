@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box !important;
+  font-family: "Times New Roman", Times, serif !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.PostList {
+  margin-top: 40px !important;
+  width: 100vw !important;
+}
+.PostList .component {
+  margin-top: 40px !important;
+  max-width: none !important;
+  width: 100% !important;
+}
+.PostList .component h3 {
+  color: #4b3b47 !important;
+  text-align: center !important;
+}
+.PostList .component p {
+  color: #4b3b47 !important;
+  text-align: center !important;
+}
+.PostList .component .post-link {
+  display: block !important;
+  color: #f4f3ee !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+.PostList .component .post-link:hover {
+  text-decoration: none !important;
+}/*# sourceMappingURL=PostList.css.map */
