@@ -7,7 +7,26 @@
 
 .AddPostForm {
   margin-top: 40px !important;
+  padding: 0px 80px !important;
   width: 100vw !important;
+}
+.AddPostForm form input, .AddPostForm form textarea {
+  border: 1px solid #4b3b47;
+  outline: none !important;
+}
+.AddPostForm form input:active, .AddPostForm form textarea:active {
+  box-shadow: none !important;
+  border: 1px solid #4b3b47 !important;
+  outline: none !important;
+}
+.AddPostForm form input:focus, .AddPostForm form textarea:focus {
+  box-shadow: none !important;
+  border: 1px solid #4b3b47 !important;
+  outline: none !important;
+}
+.AddPostForm form input:hover, .AddPostForm form textarea:hover {
+  border: 1px solid #4b3b47;
+  outline: none !important;
 }
 .AddPostForm h2 {
   color: #4b3b47 !important;

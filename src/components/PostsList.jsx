@@ -11,7 +11,8 @@ export const PostsList = () => {
     key={post.id}
     >
       <h3>{post.title}</h3>
-      <p>{post.content.substring(0, 100)}</p>
+      <h5>By {post.author}</h5>
+      <p>{post.content}</p>
       <Link
       className="post-link"
       to={`/posts/${post.id}`}

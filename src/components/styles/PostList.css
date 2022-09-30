@@ -7,6 +7,7 @@
 
 .PostList {
   margin-top: 40px !important;
+  padding: 0px 80px !important;
   width: 100vw !important;
 }
 .PostList .component {
@@ -16,10 +17,17 @@
 }
 .PostList .component h3 {
   color: #4b3b47 !important;
+  margin-top: 10px !important;
+  text-align: center !important;
+}
+.PostList .component h5 {
+  color: #4b3b47 !important;
+  margin-top: 10px !important;
   text-align: center !important;
 }
 .PostList .component p {
   color: #4b3b47 !important;
+  margin-top: 10px !important;
   text-align: center !important;
 }
 .PostList .component .post-link {
@@ -27,6 +35,7 @@
   color: #f4f3ee !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  margin-top: 10px !important;
   width: -webkit-fit-content !important;
   width: -moz-fit-content !important;
   width: fit-content !important;

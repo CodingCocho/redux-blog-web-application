@@ -5,42 +5,22 @@
   padding: 0px !important;
 }
 
-.ErrorPage {
-  min-height: 100vh !important;
-  min-width: 100vw !important;
-}
-.ErrorPage h2 {
-  padding-top: 40px !important;
-  text-align: center !important;
-}
-
-.SinglePost {
+.EditPost {
   min-height: 100vh !important;
   min-width: 100vw !important;
   max-height: none !important;
-}
-.SinglePost .page {
-  height: 100% !important;
-  padding: 0px 80px !important;
   max-width: none !important;
+}
+.EditPost .page {
+  padding: 0px 80px !important;
   width: 100% !important;
 }
-.SinglePost .page h2 {
+.EditPost .page h2 {
   color: #4b3b47 !important;
   padding-top: 40px !important;
   text-align: center !important;
 }
-.SinglePost .page h5 {
-  color: #4b3b47 !important;
-  padding-top: 10px !important;
-  text-align: center !important;
-}
-.SinglePost .page p {
-  color: #4b3b47 !important;
-  padding-top: 10px !important;
-  text-align: center !important;
-}
-.SinglePost .page .edit {
+.EditPost .page .save {
   background-color: #80a4ed !important;
   border: none !important;
   color: #4b3b47 !important;
@@ -55,4 +35,4 @@
   width: -webkit-fit-content !important;
   width: -moz-fit-content !important;
   width: fit-content !important;
-}/*# sourceMappingURL=SinglePostPage.css.map */
+}/*# sourceMappingURL=EditPost.css.map */

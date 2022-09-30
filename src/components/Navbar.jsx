@@ -8,12 +8,12 @@ export const Navbar = () => {
         className="component"
         >
           <NavLink
-          className={ ({isActive}) => isActive ? "active-link" : "unactive-link"}
+          className="unactive-link"
           to="/"
           >
-            Link 1 
+            Home 
           </NavLink>
-          <NavLink
+          {/* <NavLink
           className={ ({isActive}) => isActive ? "active-link" : "unactive-link"}
           to="/a"
           >
@@ -24,7 +24,7 @@ export const Navbar = () => {
           to="/b"
           >
             Link 3 
-          </NavLink>
+          </NavLink> */}
         </section>
     </div>
   )

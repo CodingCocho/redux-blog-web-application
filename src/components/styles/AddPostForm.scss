@@ -9,7 +9,33 @@
 .AddPostForm
 {
     margin-top: 40px !important;
+    padding: 0px 80px !important;
     width: 100vw !important;
+    form
+    {
+        input, textarea
+        {
+            border: 1px solid #4b3b47;
+            outline: none !important;
+            &:active
+            {
+                box-shadow: none !important;
+                border: 1px solid #4b3b47 !important;
+                outline: none !important;
+            }
+            &:focus
+            {
+                box-shadow: none !important;
+                border: 1px solid #4b3b47 !important;
+                outline: none !important;
+            }
+            &:hover
+            {
+                border: 1px solid #4b3b47;
+                outline: none !important;
+            }
+        }
+    }
     h2
     {
         color: #4b3b47 !important;
