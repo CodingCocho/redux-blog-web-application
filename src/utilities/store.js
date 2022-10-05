@@ -9,3 +9,14 @@ export default configureStore(
       posts: postsReducer
     }
   })
+
+
+
+
+
+
+
+
+
+
+  
