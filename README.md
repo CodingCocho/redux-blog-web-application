@@ -1,6 +1,6 @@
 # Redux Blogging Web Application
 
-!(./images/desktop-preview.jpg)
+('./src/images/desktop-preview.png)
 
 This application was completed by Raul Uriostegui Jr on 9-29-2022.
 This is the repository that holds my code. 
